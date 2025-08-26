@@ -1,3 +1,13 @@
+Tuples(tuple):
+
+ Tuples are also ordered sequences of objects, but unlike lists, they are
+ immutable. You can access the items but you cant change what items are
+ in the tuple after you create it. For example, trying to append raises an
+ exception.
+
+
+
+
 t=("1","yugender","mana","snehithudusa","131","917")
 
 print()
@@ -14,4 +24,5 @@ print(t[3])
 
 s="000000"
 s[4]="x"
+
 
